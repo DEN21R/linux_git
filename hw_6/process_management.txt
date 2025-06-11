@@ -1,0 +1,6 @@
+Wed Mar 26 16:32:45 UTC 2025
+Welkom to Amason server
+952M
+88
+DENYS_VARIABLE=240125-wde
+PID 20911 PPID 1

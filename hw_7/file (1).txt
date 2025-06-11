@@ -1,0 +1,62 @@
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+   0 nano
+   1 cd
+   2 pwd
+   3 ls -al
+   4 touch /tmp/file.txt
+   5 df -h
+   6 df -h | grep head -n3
+   7 df -h | grep head -n
+   8 df -h | grep head -n 3
+   9 df -h | head -n 3
+  10 df -h | head -n 3 >> /tmp/file.txt 
+  11 chmod g + wx
+  12 chmod g + wx /tmp/file.txt 
+  13 chmod g+wx /tmp/file.txt 
+  14 chmod o-rwx /tmp/file.txt 
+  15 cat /tmp/
+  16 cd /tmp/
+  17 ls -al
+  18 touch myfirstbashscript.sh
+  19 ls -al
+  20 chmod u+rwx myfirstbashscript.sh
+  21 ls -al
+  22 cd myfirstbashscript.sh
+  23 export USER="Denys"
+  24 export USER="Denys" >> file.txt 
+  25 cat myfirstbashscript.sh >> file.txt 
+  26 history 
+  27 history >> file.txt 
+   0 nano
+   1 cd
+   2 pwd
+   3 ls -al
+   4 touch /tmp/file.txt
+   5 df -h
+   6 df -h | grep head -n3
+   7 df -h | grep head -n
+   8 df -h | grep head -n 3
+   9 df -h | head -n 3
+  10 df -h | head -n 3 >> /tmp/file.txt 
+  11 chmod g + wx
+  12 chmod g + wx /tmp/file.txt 
+  13 chmod g+wx /tmp/file.txt 
+  14 chmod o-rwx /tmp/file.txt 
+  15 cat /tmp/
+  16 cd /tmp/
+  17 ls -al
+  18 touch myfirstbashscript.sh
+  19 ls -al
+  20 chmod u+rwx myfirstbashscript.sh
+  21 ls -al
+  22 cd myfirstbashscript.sh
+  23 export USER="Denys"
+  24 export USER="Denys" >> file.txt 
+  25 cat myfirstbashscript.sh >> file.txt 
+  26 history 
+  27 history >> file.txt 
+  28 #!/bin/bash
+  29 echo $BASH_SOURCE
+  30 history >> file.txt 
