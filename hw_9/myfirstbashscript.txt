@@ -1,0 +1,16 @@
+
+#!/bin/bash
+
+USER="DENYS"
+
+echo "Date: $(date)"
+
+echo "Hello $USER!"
+
+echo "Текущая директория: $(pwd)"
+
+
+echo "Количество bioset: $(ps -ef | grep -w "bioset" | grep -v "grep" | wc -l )"
+
+echo "Права на /etc/passwd: $(ls -l /etc/passwd | awk '{print $1}')"
+
